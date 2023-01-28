@@ -301,6 +301,11 @@
     .main__title {
         font-size: 24px;
     }
+
+    .main__container {
+    display: grid;
+    margin-top: 10px;`
+}
 }
 
 @media screen and (max-width: 1199) {
