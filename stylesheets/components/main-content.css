@@ -293,7 +293,7 @@
 
 /* media query */
 
-@media screen and (max-width: 999px) {
+@media screen and (max-width: 900px) {
     .main-sidebar {
         display: none;
     }
@@ -308,8 +308,13 @@
  }
 }
 
-@media screen and (max-width: 1199) {
+@media screen and (min-width: 901px) and (max-width: 1200px) {
     .main-sidebar{
         display: none;
     }
+
+    .main__container {
+        display: block;
+    margin-top: 10px;
+ }
 }

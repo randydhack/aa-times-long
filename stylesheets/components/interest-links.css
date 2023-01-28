@@ -67,7 +67,7 @@
     border-right: 1px solid lightgray;
 }
 
-@media screen and (max-width: 999px) {
+@media screen and (max-width: 900px) {
     .interests-bar__container {
         display: none;
     }
