@@ -85,6 +85,10 @@
     border-bottom: 1px solid #e2e2e2;
 }
 
+.masthead__cog-button {
+    position: relative;
+}
+
 .masthead__cog-button:hover {
     cursor: pointer;
 }
