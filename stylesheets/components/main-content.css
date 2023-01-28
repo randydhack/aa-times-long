@@ -303,9 +303,9 @@
     }
 
     .main__container {
-    display: grid;
+        display: block;
     margin-top: 10px;
-}
+ }
 }
 
 @media screen and (max-width: 1199) {
