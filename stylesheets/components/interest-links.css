@@ -1,0 +1,74 @@
+.interests-bar__container {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr 2fr 1fr 2fr 2fr 1fr 0.75fr;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+}
+
+.interests-bar__container p {
+    font-size: 13px;
+}
+
+.interests-bar__image {
+    width: 50px;
+    margin: 20px
+}
+
+.interests-bar__headline {
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+
+.stock-price {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.stock {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 5px;
+    width: 80%;
+}
+
+.swe-border {
+    padding: 5px 0;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+}
+
+.cat-border {
+    padding-top: 5px;
+}
+
+.interests-bar__price {
+    color: green;
+}
+
+.interests-bar__big-text {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.interests-bar__container > img {
+    justify-items: center;
+    align-items: center;
+}
+
+#cat, #plug, #dog, .stock-price {
+    border-right: 1px solid lightgray;
+}
+
+@media screen and (max-width: 999px) {
+    .interests-bar__container {
+        display: none;
+    }
+}

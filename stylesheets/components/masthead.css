@@ -1,0 +1,90 @@
+/* Your code here */
+.masthead {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    grid-template-areas:
+    'menu-and-search . action-buttons'
+    '. little-technologies .'
+    'date logo paper';
+}
+
+.masthead__menu-and-search {
+    display: flex;
+    align-items: center;
+    grid-area: menu-and-search;
+    padding-left: 20px;
+}
+
+.masthead__action {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    grid-area: action-buttons;
+}
+
+.masthead__technologies {
+    display: flex;
+    justify-content: center;
+    grid-area: little-technologies;
+}
+
+.masthead__date {
+    grid-area: date;
+}
+
+.masthead__logo {
+    grid-area: logo;
+}
+
+.masthead__paper {
+    justify-content: flex-end;
+    grid-area: paper;
+}
+
+.masthead__menu-search-button {
+    font-size: 11px;
+    padding: 7px 9px;
+}
+
+.masthead__menu-search-button:hover {
+    background-color: #e2e2e2;
+}
+
+.masthead__action {
+    padding: 10px 0;
+}
+
+.languages {
+    font-size: 10px;
+    color: #6f6f6f;
+    border-top: 1px solid #e2e2e2;
+    border-left: 1px solid #e2e2e2;
+    border-right: 1px solid #e2e2e2;
+    background-color: white;
+}
+
+.aa-times-logo {
+    align-items: center;
+    padding-top: 10px;
+}
+
+.newspaper {
+    justify-items: center;
+}
+
+.masthead__date, .masthead__paper {
+    display: flex;
+    align-items: flex-end;
+    font-size: 11px;
+    padding-bottom: 11px;
+}
+
+.masthead__date, .masthead__paper, .masthead__logo {
+    border-top: 1px solid #e2e2e2;
+    border-bottom: 1px solid #e2e2e2;
+}
+
+.masthead__cog-button:hover {
+    cursor: pointer;
+}
